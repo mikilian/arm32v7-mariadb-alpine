@@ -90,7 +90,7 @@ Main environment variables of MariaDB.
 > utf8 | UTF-8 Unicode | utf8_general_ci | 3 |
 > ucs2 | UCS-2 Unicode | ucs2_general_ci | 2 |
 > cp866 | DOS Russian | cp866_general_ci | 1 |
-> keybcs2 | DOS Kamenicky Czech-Slovak | key 1bcs2_general_ci | |
+> keybcs2 | DOS Kamenicky Czech-Slovak | keybcs2_general_ci | 1 |
 > macce | Mac Central European | macce_general_ci | 1 |
 > macroman | Mac West European | macroman_general_ci | 1 |
 > cp852 | DOS Central European | cp852_general_ci | 1 |
