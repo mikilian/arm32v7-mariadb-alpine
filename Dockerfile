@@ -2,9 +2,9 @@ FROM arm32v7/alpine:3.9
 
 LABEL maintainer="Michael Kilian <michael.kilian@gmail.com>" \
     architecture="arm32v7/armhf"                             \
-    mariadb-version="10.3.20"                                \
+    mariadb-version="10.3.23"                                \
     alpine-version="3.9"                                     \
-    build="16-Mar-2020"
+    build="16-Sep-2020"
 
 ADD files/run.sh /scripts/run.sh
 
