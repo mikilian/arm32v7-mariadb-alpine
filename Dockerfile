@@ -1,10 +1,10 @@
 FROM arm32v7/alpine:3.12
 
 LABEL maintainer="Michael Kilian <michael.kilian@gmail.com>" \
-    architecture="arm32v7/armhf"                             \
-    mariadb-version="10.4.15"                                \
-    alpine-version="3.12"                                    \
-    build="14-Oct-2020"
+    architecture="arm32v7/armhf" \
+    mariadb-version="10.5.8" \
+    alpine-version="3.12"\
+    build="15-Dec-2020"
 
 ADD files/run.sh /scripts/run.sh
 
